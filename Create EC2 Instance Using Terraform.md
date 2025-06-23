@@ -35,5 +35,6 @@ aws_instance: Membuat EC2 instance nautilus-ec2 dengan AMI, tipe t2.micro, key p
 local_file: Menyimpan kunci privat ke file nautilus-kp.pem untuk akses SSH.
 
 tags: Menambahkan tag Name = “nautilus-ec2” untuk identifikasi.
-
+~~~
 Jalankan Terraform init, plan, apply
+~~~
