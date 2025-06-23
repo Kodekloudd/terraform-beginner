@@ -15,5 +15,6 @@ provider “aws”: Mengatur region AWS ke us-east-1.
 aws_eip: Mengalokasikan Elastic IP dengan domain = “vpc” untuk digunakan dalam VPC.
 
 tags: Menambahkan tag Name = “devops-eip” untuk identifikasi.
-
+~~~
 2. Jalankan terraform init, plan, apply
+~~~
