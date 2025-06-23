@@ -7,9 +7,9 @@ membuat key pair dengan Terraform adalah langkah kunci untuk mengamankan akses k
 Buat File main.tf
 Di direktori /home/bob/terraform, buat file main.tf
 ![alt text](image.png)
-~~~
+
 Penjelasan:
-~~~
+
 ~~~
 provider “aws”: Mengatur region AWS ke us-east-1.
 ~~~
