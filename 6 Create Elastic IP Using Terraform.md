@@ -4,15 +4,20 @@ Langkah Praktik:
 
 Buat File main.tf
 
+
 Di direktori /home/bob/terraform, buat file main.tf
+
 
 ![alt text](image-11.png)
 
 Penjelasan:
 
+
 provider “aws”: Mengatur region AWS ke us-east-1.
 
+
 aws_eip: Mengalokasikan Elastic IP dengan domain = “vpc” untuk digunakan dalam VPC.
+
 
 tags: Menambahkan tag Name = “devops-eip” untuk identifikasi.
 ~~~
